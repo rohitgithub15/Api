@@ -1,0 +1,77 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>RestAssuredProject</groupId>
+  <artifactId>RestAssuredProject</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+   	
+  
+ <dependencies>
+ 
+ <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>rest-assured</artifactId>
+    <version>4.3.0</version>
+    <scope>test</scope>
+</dependency>
+		
+<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.7.1</version>
+    <scope>test</scope>
+</dependency>
+
+
+<!-- https://mvnrepository.com/artifact/com.github.fge/json-schema-validator -->
+<dependency>
+    <groupId>com.github.fge</groupId>
+    <artifactId>json-schema-validator</artifactId>
+    <version>2.2.6</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+<dependency>
+    <groupId>com.googlecode.json-simple</groupId>
+    <artifactId>json-simple</artifactId>
+    <version>1.1.1</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/io.github.lunasaw/json-exception -->
+<dependency>
+    <groupId>io.github.lunasaw</groupId>
+    <artifactId>json-exception</artifactId>
+    <version>1.1.0-RELEASE</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/io.rest-assured/json-schema-validator -->
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>json-schema-validator</artifactId>
+    <version>5.3.0</version>
+    <scope>test</scope>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.webjars.npm/matches-selector -->
+<dependency>
+    <groupId>org.webjars.npm</groupId>
+    <artifactId>matches-selector</artifactId>
+    <version>1.2.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.everit.json/org.everit.json.schema -->
+<dependency>
+    <groupId>org.everit.json</groupId>
+    <artifactId>org.everit.json.schema</artifactId>
+    <version>1.5.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/io.github.lunasaw/json-exception -->
+<dependency>
+    <groupId>io.github.lunasaw</groupId>
+    <artifactId>json-exception</artifactId>
+    <version>1.1.0-RELEASE</version>
+</dependency>
+
+
+
+ 
+ </dependencies>
+</project>
