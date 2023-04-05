@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-27T16:37:12 IST" name="Default suite" finished-at="2023-03-27T16:37:12 IST" duration-ms="74">
+  <suite started-at="2023-04-05T19:04:21 IST" name="Default suite" finished-at="2023-04-05T19:04:21 IST" duration-ms="170">
     <groups>
     </groups>
-    <test started-at="2023-03-27T16:37:12 IST" name="Default test" finished-at="2023-03-27T16:37:12 IST" duration-ms="74">
+    <test started-at="2023-04-05T19:04:21 IST" name="Default test" finished-at="2023-04-05T19:04:21 IST" duration-ms="170">
       <class name="RestAssured.com.APITest3">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:RestAssured.com.APITest3@35047d03]" started-at="2023-03-27T16:37:12 IST" name="setUp" finished-at="2023-03-27T16:37:12 IST" duration-ms="13" status="FAIL">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:RestAssured.com.APITest3@49d904ec]" started-at="2023-04-05T19:04:21 IST" name="setUp" finished-at="2023-04-05T19:04:21 IST" duration-ms="33" status="FAIL">
           <exception class="java.nio.file.NoSuchFileException">
             <message>
               <![CDATA[schema.json]]>
@@ -54,7 +54,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testAPIResponse()[pri:0, instance:RestAssured.com.APITest3@35047d03]" started-at="2023-03-27T16:37:12 IST" name="testAPIResponse" finished-at="2023-03-27T16:37:12 IST" duration-ms="0" status="SKIP">
+        <test-method signature="testAPIResponse()[pri:0, instance:RestAssured.com.APITest3@49d904ec]" started-at="2023-04-05T19:04:21 IST" name="testAPIResponse" finished-at="2023-04-05T19:04:21 IST" duration-ms="0" status="SKIP">
           <exception class="java.nio.file.NoSuchFileException">
             <message>
               <![CDATA[schema.json]]>
